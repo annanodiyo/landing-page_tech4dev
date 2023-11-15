@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: auto;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+
+}
+
+ul li a {
+    display: flex;
+    text-decoration: none;
+    /* justify-content: space-between; */
+    margin-right: 20px;
+    color: black;
+}
+
+.hero-img {
+    display: flex;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    max-width: 50%;
+}
+
+.products {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 3rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    background-color: rgb(248, 239, 239);
+    border-radius: 5px;
+}
+
+.card .material-symbols-outlined {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    height: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 80px;
+}
